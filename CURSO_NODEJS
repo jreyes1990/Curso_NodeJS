@@ -1,0 +1,58 @@
+***** CURSO DE NODE JS *****
+
+/****************************************************************************************************************************************/
+** SECCION 1 - INTRODUCCIÓN
+   * DESCARGA E INSTALA NODE JS SERVER EN LINUX (UBUNTU 22.04), ENLACE: https://www.mongodb.com/try/download/community      
+   								 	https://www.fosstechnix.com/how-to-install-mongodb-on-ubuntu-22-04-lts/     
+	   								https://www.cherryservers.com/blog/install-mongodb-ubuntu-22-04
+
+     - PAQUETE DE DESCARGA:
+       wget https://repo.mongodb.org/apt/ubuntu/dists/jammy/mongodb-org/7.0/multiverse/binary-amd64/mongodb-org-server_7.0.1_amd64.deb   
+       
+     - INSTALACIÓN DE PAQUETE DESCARGADO, ENLACE: https://voidnull.es/instalacion-de-mongodb-en-ubuntu-22-04/
+       sudo dpkg -i mongodb-org-server_6.0.5_amd64.deb
+       
+     - VER ESTADO DE NODE JS:
+       sudo systemctl status mongod.service
+       
+     - INICIAR NODE JS:       
+       sudo systemctl start mongod.service
+       
+     - HABILITAR NODE JS:
+       sudo systemctl enable mongod.service
+       
+     - VERIFICAR VERSION DE NODE JS:
+       mongod --version
+       
+   * DESCARGA E INSTALA NODE JS COMPASS EN LINUX (UBUNTU 22.04), ENLACE: https://www.mongodb.com/try/download/compass
+   									 https://hevodata.com/learn/mongodb-compass-ubuntu/
+   									 
+     - PAQUETE DE DESCARGA:
+       wget https://downloads.mongodb.com/compass/mongodb-compass_1.39.4_amd64.deb
+       
+     - INSTALACIÓN DE PAQUETE DESCARGADO, ENLACE: https://voidnull.es/instalacion-de-mongodb-en-ubuntu-22-04/
+       sudo dpkg -i mongodb-org-server_6.0.5_amd64.deb
+
+
+/****************************************************************************************************************************************/
+** SECCION 2 - FUNDAMENTOS DE NODE JS
+   * QUE ES NODE?
+     - Lenguaje de Backend.
+     - Acceso al sistema de archivos del equipo.
+     - Información del sistema operativo.
+     - Procesos del equipo.
+     
+   * QUE PUEDO HACER CON NODE?
+     - Uso de sockets para una comunicación real Cliente-Servidor.
+     - Manejo de archivos en FileSystem, cargas simultáneas.
+     - Servidores locales y remotos con información en tiempo real.
+     - Conexiones a base de datos.
+     - Creación de servicios REST en segundos.
+     
+  * PORQUE NODE ES TAN POPULAR?
+    - Entradas y salidas que no realizan bloqueos del servidor.
+    - Es sumamente rápido y fácil de configurar.
+    - Más de 470 mil paquetes disponibles (el ecosistema con más librerías en el mundo).
+    - Si sabes JavaScript, ya conoces la mayor parte de node.
+    
+  *
