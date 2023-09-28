@@ -55,4 +55,17 @@
     - Más de 470 mil paquetes disponibles (el ecosistema con más librerías en el mundo).
     - Si sabes JavaScript, ya conoces la mayor parte de node.
     
-  *
+  * INSTALACIÓN DE PAQUETE "NODEMON", ENLACE: https://www.npmjs.com/package/nodemon
+    - INSTALACION DE FORMA GLOBAL COMO SUPER ADMINISTRADOR 
+      sudo npm install -g nodemon # or using yarn: yarn global add nodemon
+    
+    - VERIFICAR LA VERSION DE NODEMON
+      nodemon -v
+    
+    - COMANDO QUE NOS FACILITA LA EJECUCIÓN DE NODE JS
+      nodemon <nombre_JS>
+      
+    NOTA: Cada vez que realicemos un cambio, se reiniciar el nodemon y ejecutará nuevamente la aplicación.
+    
+  
+  
